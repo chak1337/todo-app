@@ -1,4 +1,6 @@
 FILEPATH = 'todos.txt'
+
+
 def get_file(filepath=FILEPATH):
     with open(filepath, 'r') as file_local:
         todos_local = file_local.readlines()
